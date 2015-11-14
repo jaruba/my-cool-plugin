@@ -1,5 +1,9 @@
 module.exports = {
 	init: function() {
-		alert('test complete');
+		window.alert('test complete: plugin installed');
+	},
+	
+	deInit: function() {
+		window.alert('test complete: plugin uninstalled');
 	}
 };
